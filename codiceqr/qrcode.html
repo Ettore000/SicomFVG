@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <!--Titolo-->
+        <title>Sicom DB - Codice QR</title>
+        <!--CSS impostazioni di default-->
+        <style>
+            body {
+                background-color: black;
+            }
+        </style>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="operazioni Codice QR">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Ettore Panasia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="logicqr.php" method="GET">
+        <font face="sans-serif" color="white">
+        <center>
+            <h1>Opzioni<br>Codice QR</h1>
+        </center>
+        <p style="font-size: 30px;">Quale operazione devi svolgere?</p>
+        <p style="color:yellow; font-size: 10px;">scegli la tua azione</p>
+        <!--CSS pulsante-->
+        <style>
+            .pulsante {
+                padding-top:20px;
+                padding-bottom:20px;
+                border-radius: 20px;
+                vertical-align:middle;
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+                background-color:transparent;
+            }
+            .button1{
+                margin-bottom:50px;
+                border: 5px solid #4CAF50;
+                border-left:60px;
+                border-right:60px;
+                padding-left:35px;
+                padding-right:35px;
+            }
+            .button2{
+                margin-bottom:50px;
+                border: 5px solid #4c84af;
+                border-left:60px;
+                border-right:60px;
+            }
+            .button3{
+                margin-bottom:50px;
+                border: 5px solid #00ccff;
+                border-left:60px;
+                border-right:60px;
+                padding-left:20px;
+                padding-right:20px;
+            }
+            .button4{
+                margin-bottom:50px;
+                border: 5px solid #ff4242;
+                border-left:60px;
+                border-right:60px;
+                padding-left:20px;
+                padding-right:20px;
+            }
+        </style>
+        <div align="center">
+            <button name="scelta1" value="c" class="pulsante button1">Crea</button>
+            <button name="scelta1" value="s" class="pulsante button2">Scansiona</button>
+            <button name="scelta1" value="cerca" class="pulsante button3">Cerca</button>
+            <button name="scelta1" value="e" class="pulsante button4">Elimina</button>
+        </div>
+        </font>
+        </form>
+    </body>
+
+</html>

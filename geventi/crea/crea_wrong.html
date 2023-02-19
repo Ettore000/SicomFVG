@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!--Titolo-->
+        <title>Sicom DB - Crea evento</title>
+        <!--CSS impostazioni di default-->
+        <style>
+            body {
+                background-color: black;
+                background-image: url("sfondo.jpg");
+            }
+        </style>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Banca Dati Gestione eventi">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Ettore Panasia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="logicqr2.php" method="GET">
+        <font face="sans-serif" color="white">
+        <center>
+            <h1>Inserisci parametri</h1>
+        </center>
+        <p style="font-size: 30px;">Compilazione</p>
+        <p style="color:yellow; font-size: 10px;">Inserisci i dati richiesti</p>
+        <center>
+            <p style="font-size: 30px;">Evento</p>
+                    <div>Matricola--><input name="matricola" value="" type="textbox"></div>
+                    <div>Titolo--><input name="titolo" value="" type="textbox">
+                    <div>Localita--><input name="localita" value="" type="textbox"></div>
+                    <div>Data--><input name="data" value="" type="date"></div>
+            <br><input style="margin:30px; padding:10px;" type="submit" value="Conferma">
+        </center>
+        </font>
+        </form>
+    </body>
+</html>

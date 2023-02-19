@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <!--Titolo-->
+        <title>Sicom DB - DataBase</title>
+        <!--CSS impostazioni di default-->
+        <style>
+            body {
+                background-color: black;
+                background-image: url("sfondo.jpg");
+            }
+        </style>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Banca Dati Antincendio">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Ettore Panasia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="database.php" method="GET">
+        <font face="sans-serif" color="white">
+        <center>
+            <h1>Seleziona:</h1>
+        </center>
+        <!--CSS pulsante-->
+        <style>
+            .pulsante {
+                padding-top:20px;
+                padding-bottom:20px;
+                border-radius: 20px;
+                vertical-align:middle;
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+                background-color:transparent;
+            }
+            .button1{
+                margin-bottom:50px;
+                border: 5px solid #0088ff;
+                border-left:60px;
+                border-right:60px;
+            }
+            .button2{
+                margin-bottom:50px;
+                border: 5px solid #ffd042;
+                border-left:60px;
+                border-right:60px;
+            }
+        </style>
+        <div align="center">
+            <button name="scelta" value="v" class="pulsante button1">Visualizza</button>
+        </div>
+        <div align="center">
+            <button name="scelta" value="m" class="pulsante button2">Modifica</button>
+        </div>
+        </font>
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <!--Titolo-->
+        <title>Sicom DB - crea codice</title>
+        <!--CSS impostazioni di default-->
+        <style>
+            body {
+                background-color: black;
+                background-image: url("sfondo.jpg");
+            }
+        </style>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Banca Dati Antincendio">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Ettore Panasia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="logicqr2.php" method="GET">
+        <font face="sans-serif" color="white">
+        <center>
+            <h1>Inserisci parametri</h1>
+        </center>
+        <p style="font-size: 30px;">Compilazione</p>
+        <p style="color:yellow; font-size: 10px;">seleziona i dati corretti</p>
+        <center>
+            <p style="font-size:30px;">di cosa si tratta?</p>
+            <p style="font-size:15px; color:yellow;">Non hai fatto nessuna scelta, per favore seleziona un tipo di dispositivo</p>
+            <select name="dispositivi">
+                <option value="">||SELEZIONA||</option>
+                <option value="Estintore">Estintore</option>
+                <option value="Naspo_idrante">Naspo o idrante</option>
+                <option value="Chiusura">Porte REI o uscite di emergenza</option>
+                <option value="Luce_emergenza">Luce di emergenza</option>
+                <option value="DPI_DPS">DPI o DPs</option>
+                <option value="Generico">Altro</option>
+                </select>
+            <br><input style="margin:30px; padding:10px;" type="submit" value="Conferma">
+        </center>
+        </font>
+        </form>
+    </body>
+</html>

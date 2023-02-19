@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <!--Titolo-->
+        <title>Sicom DB - Gestione eventi</title>
+        <!--CSS impostazioni di default-->
+        <style>
+            body {
+                background-color: black;
+                background-image: url("/sfondo.jpg");
+            }
+        </style>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Banca Dati Gestione Eventi">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Ettore Panasia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="logic1.php" method="GET">
+        <font face="sans-serif" color="white">
+        <center>
+            <h3><p>Stai visualizzando:</p></h3>
+            <h1>Gestione eventi</h1>
+        </center>
+        <p style="font-size: 30px;">Cosa riguarda?</p>
+        <p style="color:yellow; font-size: 10px;">scegli la tua azione</p>
+        <!--CSS pulsante-->
+        <style>
+            .pulsante {
+                padding-top:20px;
+                padding-bottom:20px;
+                border-radius: 20px;
+                vertical-align:middle;
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+                background-color:transparent;
+            }
+            .button1{
+                margin-bottom:50px;
+                border: 5px solid #ff4242;
+                border-left:60px;
+                border-right:60px;
+            }
+            .button2{
+                margin-bottom:50px;
+                border: 5px solid #b0ff42;
+                border-left:60px;
+                border-right:60px;
+            }
+            .button3{
+                margin-bottom:50px;
+                border: 5px solid #ffd042;
+                border-left:60px;
+                border-right:60px;
+            }
+            .button4{
+                margin-bottom:50px;
+                border: 5px solid #42f2ff;
+                border-left:60px;
+                border-right:60px;
+            }
+        </style>
+        <div align="center">
+            <button name="scelta" value="crea" class="pulsante button2">Crea</button>
+            <button name="scelta" value="visualizza" class="pulsante button4">Visualizza</button>
+            <button name="scelta" value="modifica" class="pulsante button3">Modifica</button>
+            <button name="scelta" value="elimina" class="pulsante button1">Elimina</button>
+        </div>
+        </font>
+        </form>
+    </body>
+
+</html>
