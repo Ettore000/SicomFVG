@@ -1,2 +1,0 @@
-# SicomFVG
-Agency's WebSite
